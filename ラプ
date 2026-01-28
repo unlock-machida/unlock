@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Girl’s Bar Plumeria Machida</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+      background: linear-gradient(180deg, #5b4fcf, #f38bcf);
+      color: #fff;
+      text-align: center;
+    }
+    section {
+      padding: 50px 20px;
+    }
+    h1, h2 {
+      margin-bottom: 20px;
+    }
+    .hero {
+      background: rgba(0,0,0,0.25);
+      padding: 80px 20px;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      margin-top: 15px;
+    }
+    .box {
+      background: rgba(255,255,255,0.15);
+      border-radius: 20px;
+      padding: 30px;
+      margin: 20px auto;
+      max-width: 700px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+      font-size: 1rem;
+    }
+    .price {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    footer {
+      padding: 30px;
+      font-size: 0.9rem;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- TOP -->
+  <section class="hero">
+    <h1>Girl’s Bar<br>Plumeria Machida</h1>
+    <p>可愛くて落ち着ける、町田のガールズバー</p>
+  </section>
+
+  <!-- ABOUT -->
+  <section>
+    <div class="box">
+      <h2>ABOUT</h2>
+      <p>
+        Plumeria Machida は、<br>
+        初めての方でも入りやすい<br>
+        カウンターメインのガールズバーです。<br><br>
+        お一人様でも、<br>
+        お友達同士でも、<br>
+        気軽にお楽しみいただけます。
+      </p>
+    </div>
+  </section>
+
+  <!-- ENJOY -->
+  <section>
+    <div class="box">
+      <h2>ENJOY</h2>
+      <ul>
+        <li>🍸 女の子と楽しくおしゃべり</li>
+        <li>🎤 カラオケ完備</li>
+        <li>🎯 ダーツ完備</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SYSTEM -->
+  <section>
+    <div class="box">
+      <h2>SYSTEM</h2>
+      <p class="price">
+        チャージ：1時間 2,500円<br>
+        延長：30分 1,500円
+      </p>
+      <p>
+        ワンドリンク制<br>
+        ※ 税込・明朗会計
+      </p>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section>
+    <div class="box">
+      <h2>MENU</h2>
+      <h3>Alcohol</h3>
+      <ul>
+        <li>生ビール</li>
+        <li>ハイボール</li>
+        <li>レモンサワー</li>
+        <li>カクテル各種</li>
+        <li>焼酎（麦・芋）</li>
+        <li>ウイスキー</li>
+      </ul>
+
+      <h3>Non Alcohol</h3>
+      <ul>
+        <li>ソフトドリンク各種</li>
+        <li>ノンアルコールカクテル</li>
+      </ul>
+
+      <p>ドリンク 1,000円〜</p>
+    </div>
+  </section>
+
+  <!-- INFO -->
+  <section>
+    <div class="box">
+      <h2>SHOP INFO</h2>
+      <p>
+        Girl’s Bar Plumeria Machida<br><br>
+        年中無休<br>
+        エリア：町田<br><br>
+        ご質問・ご来店の際は<br>
+        SNSのDMよりお気軽にどうぞ
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    © Girl’s Bar Plumeria Machida
+  </footer>
+
+</body>
+</html>
